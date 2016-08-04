@@ -14,6 +14,9 @@
 		5BB5F0D31D51F52600E7AF5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BB5F0D11D51F52600E7AF5B /* Main.storyboard */; };
 		5BB5F0D51D51F52600E7AF5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BB5F0D41D51F52600E7AF5B /* Assets.xcassets */; };
 		5BB5F0D81D51F52600E7AF5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BB5F0D61D51F52600E7AF5B /* LaunchScreen.storyboard */; };
+		5BB5F0E21D51F5D600E7AF5B /* MWButtonNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB5F0E01D51F5D600E7AF5B /* MWButtonNode.swift */; };
+		5BB5F0E31D51F5D600E7AF5B /* MWPopupNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB5F0E11D51F5D600E7AF5B /* MWPopupNode.swift */; };
+		5BB5F0E51D51F70100E7AF5B /* Popup.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5BB5F0E41D51F70100E7AF5B /* Popup.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		5BB5F0D41D51F52600E7AF5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BB5F0D71D51F52600E7AF5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BB5F0D91D51F52600E7AF5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BB5F0E01D51F5D600E7AF5B /* MWButtonNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MWButtonNode.swift; sourceTree = "<group>"; };
+		5BB5F0E11D51F5D600E7AF5B /* MWPopupNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MWPopupNode.swift; sourceTree = "<group>"; };
+		5BB5F0E41D51F70100E7AF5B /* Popup.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Popup.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 		5BB5F0C81D51F52600E7AF5B /* SpriteKit Popup */ = {
 			isa = PBXGroup;
 			children = (
+				5BB5F0DF1D51F5D600E7AF5B /* MW Utils */,
 				5BB5F0C91D51F52600E7AF5B /* AppDelegate.swift */,
 				5BB5F0CB1D51F52600E7AF5B /* GameScene.sks */,
 				5BB5F0CD1D51F52600E7AF5B /* GameScene.swift */,
@@ -68,6 +75,16 @@
 				5BB5F0D91D51F52600E7AF5B /* Info.plist */,
 			);
 			path = "SpriteKit Popup";
+			sourceTree = "<group>";
+		};
+		5BB5F0DF1D51F5D600E7AF5B /* MW Utils */ = {
+			isa = PBXGroup;
+			children = (
+				5BB5F0E01D51F5D600E7AF5B /* MWButtonNode.swift */,
+				5BB5F0E11D51F5D600E7AF5B /* MWPopupNode.swift */,
+				5BB5F0E41D51F70100E7AF5B /* Popup.sks */,
+			);
+			path = "MW Utils";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BB5F0CC1D51F52600E7AF5B /* GameScene.sks in Resources */,
+				5BB5F0E51D51F70100E7AF5B /* Popup.sks in Resources */,
 				5BB5F0D81D51F52600E7AF5B /* LaunchScreen.storyboard in Resources */,
 				5BB5F0D51D51F52600E7AF5B /* Assets.xcassets in Resources */,
 				5BB5F0D31D51F52600E7AF5B /* Main.storyboard in Resources */,
@@ -143,8 +161,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BB5F0CE1D51F52600E7AF5B /* GameScene.swift in Sources */,
+				5BB5F0E31D51F5D600E7AF5B /* MWPopupNode.swift in Sources */,
 				5BB5F0D01D51F52600E7AF5B /* GameViewController.swift in Sources */,
 				5BB5F0CA1D51F52600E7AF5B /* AppDelegate.swift in Sources */,
+				5BB5F0E21D51F5D600E7AF5B /* MWButtonNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
