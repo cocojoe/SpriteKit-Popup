@@ -11,16 +11,24 @@ import SpriteKit
 class GameScene: SKScene {
     
     var helpButton: MWButtonNode!
+    var backgroundNode: SKSpriteNode!
     
     override func didMoveToView(view: SKView) {
         /* Setup your scene here */
         
         helpButton = childNodeWithName("//helpButton") as! MWButtonNode
+        backgroundNode = childNodeWithName("//backgroundNode") as! SKSpriteNode
         
         /* Help button show popupNode */
         helpButton.selectedHandler = { [unowned self] in
             self.displayPopup()
         }
+        
+        /* Background radient */
+        let gradient = SKTexture(size: size, color1: CIColor(red: 0, green: 0.0, blue: 255.0/255.0), color2: CIColor(red: 0, green: 255.0/255.0, blue: 0.0), direction: .up)
+        backgroundNode.runAction(SKAction.setTexture(gradient))
+        
+        
     }
     
     func displayPopup() {

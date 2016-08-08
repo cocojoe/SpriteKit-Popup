@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5BAA77911D5922160020A41A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAA77901D5922160020A41A /* Extensions.swift */; };
 		5BB5F0CA1D51F52600E7AF5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB5F0C91D51F52600E7AF5B /* AppDelegate.swift */; };
 		5BB5F0CC1D51F52600E7AF5B /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5BB5F0CB1D51F52600E7AF5B /* GameScene.sks */; };
 		5BB5F0CE1D51F52600E7AF5B /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BB5F0CD1D51F52600E7AF5B /* GameScene.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5BAA77901D5922160020A41A /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		5BB5F0C61D51F52600E7AF5B /* SpriteKit Popup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SpriteKit Popup.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BB5F0C91D51F52600E7AF5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BB5F0CB1D51F52600E7AF5B /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				5BB5F0E01D51F5D600E7AF5B /* MWButtonNode.swift */,
 				5BB5F0E11D51F5D600E7AF5B /* MWPopupNode.swift */,
 				5BB5F0E41D51F70100E7AF5B /* Popup.sks */,
+				5BAA77901D5922160020A41A /* Extensions.swift */,
 			);
 			path = "MW Utils";
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BB5F0CE1D51F52600E7AF5B /* GameScene.swift in Sources */,
+				5BAA77911D5922160020A41A /* Extensions.swift in Sources */,
 				5BB5F0E31D51F5D600E7AF5B /* MWPopupNode.swift in Sources */,
 				5BB5F0D01D51F52600E7AF5B /* GameViewController.swift in Sources */,
 				5BB5F0CA1D51F52600E7AF5B /* AppDelegate.swift in Sources */,
@@ -316,6 +320,7 @@
 				5BB5F0DE1D51F52600E7AF5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
